@@ -1,0 +1,130 @@
+.联系我们 {
+    line-height: 3em;
+    color: #81848c;
+    font-size: 15px;
+    background: #1f2532;
+    overflow: hidden;
+
+    font-weight: 400;
+    font-family: "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";
+    user-select: none;
+    outline: 0;
+    word-wrap: break-word;
+    box-sizing: border-box;
+
+    -webkit-text-size-adjust: 100%;
+}
+
+.联系我们 .layout {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 414px) {
+    .联系我们 .layout {
+        min-width: 0;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .联系我们 .layout {
+        padding: 0 15px;
+    }
+}
+
+.联系我们 .footer-logo {
+    width: 121px;
+    height: 32px;
+    margin: 60px 0 30px -15px;
+}
+
+@media screen and (max-width: 414px) {
+    .联系我们 .footer-logo {
+        width: 151px;
+        margin: 20px 0 20px -15px;
+        padding: 0 15px;
+    }
+}
+
+.联系我们 .footer-logo img {
+    width: 100%;
+    /*
+    height: 100%;
+    */
+    height: auto;
+}
+
+.联系我们 .content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 414px) {
+    .联系我们 .content {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+.联系我们 .content>div ul {
+    display: inline-block;
+    text-align: left;
+}
+
+@media screen and (max-width: 414px) {
+    .联系我们 .content>div {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+.联系我们 .content>div:nth-child(2) {
+    text-align: right;
+}
+
+@media screen and (max-width: 414px) {
+    .联系我们 .content>div:nth-child(2) {
+        text-align: center;
+    }
+}
+
+.联系我们 .content li.title {
+    color: #d3d4d7;
+    font-size: 16px;
+}
+
+.联系我们 .content .qrcode {
+    display: inline-block;
+    text-align: center;
+}
+
+.联系我们 .content .qrcode img {
+    width: 120px;
+    height: 120px;
+}
+
+.联系我们 .copyright {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+@media screen and (max-width: 414px) {
+    .联系我们 .copyright {
+        padding: 0 15px;
+    }
+}
+
+
+.联系我们 .copyright img {
+    margin-left: 8px;
+    vertical-align: 0;
+}

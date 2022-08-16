@@ -1,0 +1,99 @@
+.examples {
+    min-height: 940px;
+    background: #191f24;
+}
+
+.examples h3 {
+    color: #fff;
+    line-height: 6em;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";
+    
+}
+
+.examples-slick {
+    position: relative;
+    display: flex;
+
+    height: 800px;
+    /*
+    padding: 0 100px 80px;
+    */
+    width: 1400px;
+    min-width: 1400px;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+    word-wrap: break-word;
+    user-select: none;
+    outline: 0;
+    line-height: 1.6;
+    font-family: "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .examples-slick {
+        display: none;
+    }
+}
+
+
+.example {
+    position: relative;
+    display: inline-block;
+    
+    height: 600px;
+    max-width: 480px;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    /*
+    width: 400px;
+    */
+    padding: 25px;
+    background-color: #fff;
+    white-space: normal;
+    cursor: pointer;
+    vertical-align: top;
+    -webkit-box-shadow: 0 11px 13px 0 rgb(117 117 117 / 50%);
+    box-shadow: 0 11px 13px 0 rgb(117 117 117 / 50%);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    -webkit-transform-origin: 50% 70%;
+    transform-origin: 50% 70%;
+    
+    margin-top: 100px;
+}
+
+.example.slick-center {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.example-image {
+    width: auto;
+    height: auto;
+    /*
+    max-width: 90%;
+    */
+    width: 100%;
+}
+
+.example-title {
+    line-height: 4em;
+    font-size: 18px;
+    color: #333;
+}
+
+.example-description {
+    line-height: 2em;
+    color: #666;
+    text-indent: 2em;
+}
